@@ -1,7 +1,7 @@
 #Tenemos un problema de clasificación supervisado (datos de training con clase 1=real y 0=sintético)
 #Tras hacer plots de los datos hago una prueba de divergencia de Jensen-Shanon de las desviaciones típicias que me da 0.02
 #Quiere decir que los datos son extremadamente parecidos, métodos como regresión logística y SVM consigo distinguir satisfactoriamente
-#Decido entonces usar tensforflow y keras para buscar patrones escondidos en los datos
+#Como los datos son muy muy similares creo que lo mejor es usar tensforflow y keras para buscar patrones ocultos
 
 #Importo las librerías que vamos a necesitar
 import numpy as np
